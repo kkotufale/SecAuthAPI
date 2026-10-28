@@ -61,10 +61,15 @@ The AWS services and final deployment architecture are still being selected.
 | Area | Current foundation | Planned |
 
 | Backend | Python, FastAPI | Gateway functionality and protected routes |
+
 | Data | SQLAlchemy, SQLite configuration | Event storage and deployment-ready persistence decisions |
+
 | Authentication | Password-hashing utility, user model, validation schemas | Registration, login, JWTs, role-based permissions |
+
 | AI | Not implemented | Suspicious-activity analysis and evaluation |
+
 | Testing | Not yet included | Automated unit and integration tests |
+
 | Deployment | Not yet included | Docker, AWS, least-privilege IAM |
 
 ## Repository Structure
