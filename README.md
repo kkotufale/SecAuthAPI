@@ -77,9 +77,13 @@ The AWS services and final deployment architecture are still being selected.
 | File | Responsibility |
 
 | `main.py` | FastAPI application entry point |
+
 | `database.py` | Database engine and session configuration |
+
 | `models.py` | SQLAlchemy user model |
+
 | `schemas.py` | Request validation and response schemas |
+
 | `auth.py` | Password-hashing utility |
 
 This structure will evolve as routing, gateway logic, tests, and AI components are added.
